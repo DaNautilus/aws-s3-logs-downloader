@@ -21,5 +21,7 @@
     "repository": "git+ssh://git@github.com:DaNautilus/s3-log-parser.git",
     "license": "ISC",
     "devDependencies": {},
-    "dependencies": {}
+    "dependencies": {
+        "aws-sdk": "^2.450.0"
+    }
 }
