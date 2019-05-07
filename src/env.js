@@ -5,11 +5,11 @@ import * as path from 'path';
  * Helper functions
  */
 const getOsEnv = key => {
-    if (typeof process.env[key] === 'undefined') {
-        throw new Error(`Environment variable ${key} is not set.`);
-    }
+  if (typeof process.env[key] === 'undefined') {
+    throw new Error(`Environment variable ${key} is not set.`);
+  }
 
-    return process.env[key];
+  return process.env[key];
 }
 
 /**
@@ -21,11 +21,9 @@ dotenv.config({ path: path.join(__dirname, `../`, `.env.${process.env.DEPLOY_TYP
  * Environment variables
  */
 const env = {
-    aws: {
-        bucketName: getOsEnv('AWS_BUCKET_NAME'),
-        accessKey: getOsEnv('AWS_ACCESS_KEY'),
-        secretKey: getOsEnv('AWS_SECRET_KEY'),
-    }
+  aws: {
+    bucketName: getOsEnv('AWS_BUCKET_NAME'),
+  }
 };
 
 module.exports = env;
