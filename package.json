@@ -1,0 +1,25 @@
+{
+    "name": "s3-log-parser",
+    "version": "0.0.0",
+    "description": "S3 storage log parser",
+    "main": "src/s3-log-parser.js",
+    "scripts": {},
+    "keywords": [
+        "amazon",
+        "s3",
+        "parser"
+    ],
+    "engines": {
+        "node": ">=8.15.1"
+    },
+    "contributors": [
+        {
+            "name": "Robert Kleger",
+            "email": "robert.kleger@bobb.io"
+        }
+    ],
+    "repository": "git+ssh://git@github.com:DaNautilus/s3-log-parser.git",
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {}
+}
