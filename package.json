@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-logs-downloader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Download and extract logs from AWS S3 storage",
   "main": "src/s3-log-parser.js",
   "scripts": {
