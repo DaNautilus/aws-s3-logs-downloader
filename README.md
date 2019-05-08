@@ -1,4 +1,4 @@
-<h1 align="center">S3 Log Parser</h1>
+<h1 align="center">AWS S3 Logs Downloader</h1>
 
 ![divider](./divider.png)
 
@@ -48,3 +48,4 @@ Run `npm run start` to download and extract log files.
 Downloaded AWS S3 storage files are located in folder `./s3-files` and extracted log in folder `./logs`.
 
 ![divider](./divider.png)
+a
