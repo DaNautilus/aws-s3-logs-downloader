@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "S3 storage log parser",
   "main": "src/s3-log-parser.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node src/s3-log-parser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "amazon",
     "s3",
@@ -23,6 +26,10 @@
   "devDependencies": {},
   "dependencies": {
     "aws-sdk": "^2.450.0",
-    "dotenv": "^8.0.0"
+    "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "listr": "^0.14.3",
+    "rimraf": "^2.6.3",
+    "zlib": "^1.0.5"
   }
 }

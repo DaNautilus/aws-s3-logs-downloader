@@ -8,8 +8,10 @@ yarn-error.log
 .DS_Store
 
 # Generated filed #
-dist/
+s3-files/
+logs/
 .tmp/
+
 
 # editor config #
 .vscode/settings.json
