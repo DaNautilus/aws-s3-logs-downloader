@@ -1,5 +1,5 @@
 {
-  "name": "s3-log-parser",
+  "name": "s3-log-downloader",
   "version": "0.0.0",
   "description": "S3 storage log parser",
   "main": "src/s3-log-parser.js",
