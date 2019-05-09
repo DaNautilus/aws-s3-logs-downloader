@@ -20,7 +20,7 @@ Install [Node.js and NPM](https://nodejs.org/en/download/)
 Install yarn globally
 
 ```bash
-yarn install yarn -g
+npm install yarn -g
 ```
 
 ### Step 2: Download project
@@ -32,7 +32,7 @@ Download this project.
 Navigate to your project folder and install all dependencies with `yarn`.
 
 ```bash
-yarn install yarn -g
+yarn install
 ```
 
 ### Step 3: Set up environment variables
